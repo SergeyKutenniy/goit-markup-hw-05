@@ -610,10 +610,28 @@ img {
 /* Чем мы занимаемся */
 .working-list {
   margin-right: 30px;
+  position: relative;
+  display: flex;
 }
 
 .working-list:nth-child(3n) {
   margin-right: 0;
+}
+
+.product-action {
+  position: absolute;
+  display: flex;
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: #ffffff;
+  background-color: rgba(47, 48, 58, 0.8);
+  height: 70px;
+
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
 }
 
 .filter {
